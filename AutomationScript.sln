@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{C1E6D54E-F137-4176-B1BA-99D27C8E0A38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{4F8991B1-29A1-43A0-9830-BB97699FD9CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{824A347C-738A-43B0-AA88-836C960FEFFD}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{0DC9F7C8-AA69-4847-97C7-F2E11592D5F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{88E1A412-C7B0-43A9-A3A5-BE5AC462B3AA}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{36EAB3C6-007B-4D43-B221-1ED2EA9D0AA1}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{9D4F66C6-1224-4BBA-B4B2-4993440E2502}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mhacci", "mhacci", "{6B08588C-3B73-4A81-8EB4-FA3F2CF3594F}"
+	ProjectSection(SolutionItems) = preProject
+		mhacci.xml = mhacci.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{BC923726-72D9-4746-AF82-E6D2B72AFAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mhacci_1", "mhacci_1\mhacci_1.csproj", "{8170AC5E-5CDB-4C23-A936-4BDB12436161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8170AC5E-5CDB-4C23-A936-4BDB12436161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8170AC5E-5CDB-4C23-A936-4BDB12436161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8170AC5E-5CDB-4C23-A936-4BDB12436161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8170AC5E-5CDB-4C23-A936-4BDB12436161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88E1A412-C7B0-43A9-A3A5-BE5AC462B3AA} = {0DC9F7C8-AA69-4847-97C7-F2E11592D5F9}
+		{9D4F66C6-1224-4BBA-B4B2-4993440E2502} = {C1E6D54E-F137-4176-B1BA-99D27C8E0A38}
+		{6B08588C-3B73-4A81-8EB4-FA3F2CF3594F} = {4F8991B1-29A1-43A0-9830-BB97699FD9CC}
+		{BC923726-72D9-4746-AF82-E6D2B72AFAD8} = {6B08588C-3B73-4A81-8EB4-FA3F2CF3594F}
+		{8170AC5E-5CDB-4C23-A936-4BDB12436161} = {BC923726-72D9-4746-AF82-E6D2B72AFAD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4333D8D8-FC53-4CAA-A62A-16AB67BA6BF9}
+	EndGlobalSection
+EndGlobal
